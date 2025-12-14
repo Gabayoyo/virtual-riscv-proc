@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/Users/leogabayoyo/Projects/virtual-riscv-proc/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/leogabayoyo/Projects/virtual-riscv-proc/src -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk -o CMakeFiles/riscv-proc.dir/src/core/proc.cpp.o -c /Users/leogabayoyo/Projects/virtual-riscv-proc/src/core/proc.cpp",
+  "file": "/Users/leogabayoyo/Projects/virtual-riscv-proc/src/core/proc.cpp",
+  "output": "CMakeFiles/riscv-proc.dir/src/core/proc.cpp.o"
+},
+{
+  "directory": "/Users/leogabayoyo/Projects/virtual-riscv-proc/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/leogabayoyo/Projects/virtual-riscv-proc/src -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk -o CMakeFiles/riscv-proc.dir/src/regfile/regfile.cpp.o -c /Users/leogabayoyo/Projects/virtual-riscv-proc/src/regfile/regfile.cpp",
+  "file": "/Users/leogabayoyo/Projects/virtual-riscv-proc/src/regfile/regfile.cpp",
+  "output": "CMakeFiles/riscv-proc.dir/src/regfile/regfile.cpp.o"
+}
+]
