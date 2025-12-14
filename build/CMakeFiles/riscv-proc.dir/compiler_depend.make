@@ -786,7 +786,7 @@ CMakeFiles/riscv-proc.dir/src/core/proc.cpp.o: /Users/leogabayoyo/Projects/virtu
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/leogabayoyo/Projects/virtual-riscv-proc/src/regfile/regfile.hpp
+  /Users/leogabayoyo/Projects/virtual-riscv-proc/include/regfile/regfile.hpp
 
 CMakeFiles/riscv-proc.dir/src/regfile/regfile.cpp.o: /Users/leogabayoyo/Projects/virtual-riscv-proc/src/regfile/regfile.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/Availability.h \
@@ -2281,6 +2281,8 @@ CMakeFiles/riscv-proc.dir/src/regfile/regfile.cpp.o: /Users/leogabayoyo/Projects
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/sort_heap.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__functional/ranges_operations.h:
+
+/Users/leogabayoyo/Projects/virtual-riscv-proc/include/regfile/regfile.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__charconv/to_chars_integral.h:
 

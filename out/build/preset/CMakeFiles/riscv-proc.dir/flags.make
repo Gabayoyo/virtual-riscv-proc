@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/clang++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/leogabayoyo/Projects/virtual-riscv-proc/src
+CXX_INCLUDES = -I/Users/leogabayoyo/Projects/virtual-riscv-proc/include
 
 CXX_FLAGSarm64 = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk
 

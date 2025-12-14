@@ -784,4 +784,4 @@ CMakeFiles/riscv-proc.dir/src/core/proc.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__fwd/stack.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/print \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/unistd.h \
-  /Users/leogabayoyo/Projects/virtual-riscv-proc/src/regfile/regfile.hpp
+  /Users/leogabayoyo/Projects/virtual-riscv-proc/include/regfile/regfile.hpp

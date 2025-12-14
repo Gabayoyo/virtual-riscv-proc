@@ -1,6 +1,6 @@
 CMakeFiles/riscv-proc.dir/src/regfile/regfile.cpp.o: \
   /Users/leogabayoyo/Projects/virtual-riscv-proc/src/regfile/regfile.cpp \
-  /Users/leogabayoyo/Projects/virtual-riscv-proc/src/regfile/regfile.hpp \
+  /Users/leogabayoyo/Projects/virtual-riscv-proc/include/regfile/regfile.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/array \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/equal.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/comp.h \
