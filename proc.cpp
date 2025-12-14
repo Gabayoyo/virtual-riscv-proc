@@ -1,7 +1,12 @@
 #include <iostream>
 using namespace std;
 
+#include "regfile/regfile.hpp"
+
 int main() {
-    cout << "Hello, World!" << endl;
+
+    Regfile rf;
+    rf.write(1, 42);
+    rf.printReg(1);
     return 0;
 }
