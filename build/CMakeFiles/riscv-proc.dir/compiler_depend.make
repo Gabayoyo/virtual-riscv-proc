@@ -786,7 +786,10 @@ CMakeFiles/riscv-proc.dir/src/core/proc.cpp.o: /Users/leogabayoyo/Projects/virtu
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/leogabayoyo/Projects/virtual-riscv-proc/include/regfile/regfile.hpp
+  /Users/leogabayoyo/Projects/virtual-riscv-proc/include/decoder/instruction.hpp \
+  /Users/leogabayoyo/Projects/virtual-riscv-proc/include/decoder/instructionR.hpp \
+  /Users/leogabayoyo/Projects/virtual-riscv-proc/include/regfile/regfile.hpp \
+  /Users/leogabayoyo/Projects/virtual-riscv-proc/include/utils/utils.hpp
 
 CMakeFiles/riscv-proc.dir/src/regfile/regfile.cpp.o: /Users/leogabayoyo/Projects/virtual-riscv-proc/src/regfile/regfile.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/Availability.h \
@@ -1573,10 +1576,14 @@ CMakeFiles/riscv-proc.dir/src/regfile/regfile.cpp.o: /Users/leogabayoyo/Projects
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Users/leogabayoyo/Projects/virtual-riscv-proc/src/regfile/regfile.hpp
+  /Users/leogabayoyo/Projects/virtual-riscv-proc/include/regfile/regfile.hpp
 
 
 /Users/leogabayoyo/Projects/virtual-riscv-proc/src/regfile/regfile.cpp:
+
+/Users/leogabayoyo/Projects/virtual-riscv-proc/include/utils/utils.hpp:
+
+/Users/leogabayoyo/Projects/virtual-riscv-proc/include/decoder/instructionR.hpp:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h:
 
@@ -2331,8 +2338,6 @@ CMakeFiles/riscv-proc.dir/src/regfile/regfile.cpp.o: /Users/leogabayoyo/Projects
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__fwd/bit_reference.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__format/unicode.h:
-
-/Users/leogabayoyo/Projects/virtual-riscv-proc/src/regfile/regfile.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_uid_t.h:
 
@@ -3147,6 +3152,8 @@ CMakeFiles/riscv-proc.dir/src/regfile/regfile.cpp.o: /Users/leogabayoyo/Projects
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/remove_all_extents.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_bounds.h:
+
+/Users/leogabayoyo/Projects/virtual-riscv-proc/include/decoder/instruction.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__utility/forward.h:
 

@@ -1,5 +1,7 @@
 #pragma once
-#include "instruction.hpp"
+
+#include "inst.hpp"
+#include "utils/utils.hpp"
 
 // R-type instruction class
 class InstructionR : public Instruction {

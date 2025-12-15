@@ -787,7 +787,10 @@ CMakeFiles/riscv-proc.dir/src/core/proc.cpp.o
  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h
  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h
  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h
+ /Users/leogabayoyo/Projects/virtual-riscv-proc/include/decoder/instruction.hpp
+ /Users/leogabayoyo/Projects/virtual-riscv-proc/include/decoder/instructionR.hpp
  /Users/leogabayoyo/Projects/virtual-riscv-proc/include/regfile/regfile.hpp
+ /Users/leogabayoyo/Projects/virtual-riscv-proc/include/utils/utils.hpp
 
 CMakeFiles/riscv-proc.dir/src/regfile/regfile.cpp.o
  /Users/leogabayoyo/Projects/virtual-riscv-proc/src/regfile/regfile.cpp
@@ -1575,5 +1578,5 @@ CMakeFiles/riscv-proc.dir/src/regfile/regfile.cpp.o
  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h
  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h
  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h
- /Users/leogabayoyo/Projects/virtual-riscv-proc/src/regfile/regfile.hpp
+ /Users/leogabayoyo/Projects/virtual-riscv-proc/include/regfile/regfile.hpp
 
