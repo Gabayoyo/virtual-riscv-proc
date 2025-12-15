@@ -11,6 +11,7 @@ struct InstrEncoding {
 };
 
 map<string, InstrEncoding> opcodeDict = {
+    // R-type
     {"ADD", {0b0110011, 0x0, 0x00}},
     {"SUB", {0b0110011, 0x0, 0x20}},
     {"AND", {0b0110011, 0x7, 0x00}},
@@ -25,4 +26,5 @@ map<string, InstrEncoding> opcodeDict = {
     {"SRL", {0b0010011, 0x5, 0x00}},
     {"SLT", {0b0110011, 0x2, 0x00}},
     {"SLTU",{0b0110011, 0x3, 0x00}},
+    // I-type
 };

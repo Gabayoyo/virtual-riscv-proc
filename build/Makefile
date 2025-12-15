@@ -527,6 +527,30 @@ src/core/proc.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/core/proc.cpp.s
 .PHONY : src/core/proc.cpp.s
 
+src/decode/decoder/decoder.o: src/decode/decoder/decoder.cpp.o
+.PHONY : src/decode/decoder/decoder.o
+
+# target to build an object file
+src/decode/decoder/decoder.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/decode/decoder/decoder.cpp.o
+.PHONY : src/decode/decoder/decoder.cpp.o
+
+src/decode/decoder/decoder.i: src/decode/decoder/decoder.cpp.i
+.PHONY : src/decode/decoder/decoder.i
+
+# target to preprocess a source file
+src/decode/decoder/decoder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/decode/decoder/decoder.cpp.i
+.PHONY : src/decode/decoder/decoder.cpp.i
+
+src/decode/decoder/decoder.s: src/decode/decoder/decoder.cpp.s
+.PHONY : src/decode/decoder/decoder.s
+
+# target to generate assembly for a file
+src/decode/decoder/decoder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/decode/decoder/decoder.cpp.s
+.PHONY : src/decode/decoder/decoder.cpp.s
+
 src/decode/regfile/regfile.o: src/decode/regfile/regfile.cpp.o
 .PHONY : src/decode/regfile/regfile.o
 
@@ -551,29 +575,53 @@ src/decode/regfile/regfile.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/decode/regfile/regfile.cpp.s
 .PHONY : src/decode/regfile/regfile.cpp.s
 
-src/translator/RISCop.o: src/translator/RISCop.cpp.o
-.PHONY : src/translator/RISCop.o
+src/instTranslator/RISCop.o: src/instTranslator/RISCop.cpp.o
+.PHONY : src/instTranslator/RISCop.o
 
 # target to build an object file
-src/translator/RISCop.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/translator/RISCop.cpp.o
-.PHONY : src/translator/RISCop.cpp.o
+src/instTranslator/RISCop.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/instTranslator/RISCop.cpp.o
+.PHONY : src/instTranslator/RISCop.cpp.o
 
-src/translator/RISCop.i: src/translator/RISCop.cpp.i
-.PHONY : src/translator/RISCop.i
+src/instTranslator/RISCop.i: src/instTranslator/RISCop.cpp.i
+.PHONY : src/instTranslator/RISCop.i
 
 # target to preprocess a source file
-src/translator/RISCop.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/translator/RISCop.cpp.i
-.PHONY : src/translator/RISCop.cpp.i
+src/instTranslator/RISCop.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/instTranslator/RISCop.cpp.i
+.PHONY : src/instTranslator/RISCop.cpp.i
 
-src/translator/RISCop.s: src/translator/RISCop.cpp.s
-.PHONY : src/translator/RISCop.s
+src/instTranslator/RISCop.s: src/instTranslator/RISCop.cpp.s
+.PHONY : src/instTranslator/RISCop.s
 
 # target to generate assembly for a file
-src/translator/RISCop.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/translator/RISCop.cpp.s
-.PHONY : src/translator/RISCop.cpp.s
+src/instTranslator/RISCop.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/instTranslator/RISCop.cpp.s
+.PHONY : src/instTranslator/RISCop.cpp.s
+
+src/instTranslator/instTranslator.o: src/instTranslator/instTranslator.cpp.o
+.PHONY : src/instTranslator/instTranslator.o
+
+# target to build an object file
+src/instTranslator/instTranslator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/instTranslator/instTranslator.cpp.o
+.PHONY : src/instTranslator/instTranslator.cpp.o
+
+src/instTranslator/instTranslator.i: src/instTranslator/instTranslator.cpp.i
+.PHONY : src/instTranslator/instTranslator.i
+
+# target to preprocess a source file
+src/instTranslator/instTranslator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/instTranslator/instTranslator.cpp.i
+.PHONY : src/instTranslator/instTranslator.cpp.i
+
+src/instTranslator/instTranslator.s: src/instTranslator/instTranslator.cpp.s
+.PHONY : src/instTranslator/instTranslator.s
+
+# target to generate assembly for a file
+src/instTranslator/instTranslator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/instTranslator/instTranslator.cpp.s
+.PHONY : src/instTranslator/instTranslator.cpp.s
 
 # Help Target
 help:
@@ -616,12 +664,18 @@ help:
 	@echo "... src/core/proc.o"
 	@echo "... src/core/proc.i"
 	@echo "... src/core/proc.s"
+	@echo "... src/decode/decoder/decoder.o"
+	@echo "... src/decode/decoder/decoder.i"
+	@echo "... src/decode/decoder/decoder.s"
 	@echo "... src/decode/regfile/regfile.o"
 	@echo "... src/decode/regfile/regfile.i"
 	@echo "... src/decode/regfile/regfile.s"
-	@echo "... src/translator/RISCop.o"
-	@echo "... src/translator/RISCop.i"
-	@echo "... src/translator/RISCop.s"
+	@echo "... src/instTranslator/RISCop.o"
+	@echo "... src/instTranslator/RISCop.i"
+	@echo "... src/instTranslator/RISCop.s"
+	@echo "... src/instTranslator/instTranslator.o"
+	@echo "... src/instTranslator/instTranslator.i"
+	@echo "... src/instTranslator/instTranslator.s"
 .PHONY : help
 
 

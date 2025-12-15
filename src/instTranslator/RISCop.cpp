@@ -1,5 +1,5 @@
-#include "translator/RISCop.hpp"
-#include "translator/opDict.hpp"
+#include "instTranslator/RISCop.hpp"
+#include "instTranslator/opDict.hpp"
 #include <regex>
 #include <iostream>
 

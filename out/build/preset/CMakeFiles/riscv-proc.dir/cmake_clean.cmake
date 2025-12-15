@@ -1,10 +1,14 @@
 file(REMOVE_RECURSE
   "CMakeFiles/riscv-proc.dir/src/core/proc.cpp.o"
   "CMakeFiles/riscv-proc.dir/src/core/proc.cpp.o.d"
+  "CMakeFiles/riscv-proc.dir/src/decode/decoder/decoder.cpp.o"
+  "CMakeFiles/riscv-proc.dir/src/decode/decoder/decoder.cpp.o.d"
   "CMakeFiles/riscv-proc.dir/src/decode/regfile/regfile.cpp.o"
   "CMakeFiles/riscv-proc.dir/src/decode/regfile/regfile.cpp.o.d"
-  "CMakeFiles/riscv-proc.dir/src/translator/RISCop.cpp.o"
-  "CMakeFiles/riscv-proc.dir/src/translator/RISCop.cpp.o.d"
+  "CMakeFiles/riscv-proc.dir/src/instTranslator/RISCop.cpp.o"
+  "CMakeFiles/riscv-proc.dir/src/instTranslator/RISCop.cpp.o.d"
+  "CMakeFiles/riscv-proc.dir/src/instTranslator/instTranslator.cpp.o"
+  "CMakeFiles/riscv-proc.dir/src/instTranslator/instTranslator.cpp.o.d"
   "riscv-proc"
   "riscv-proc.pdb"
 )
