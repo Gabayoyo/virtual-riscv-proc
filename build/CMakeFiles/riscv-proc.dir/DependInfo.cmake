@@ -9,7 +9,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/leogabayoyo/Projects/virtual-riscv-proc/src/core/proc.cpp" "CMakeFiles/riscv-proc.dir/src/core/proc.cpp.o" "gcc" "CMakeFiles/riscv-proc.dir/src/core/proc.cpp.o.d"
-  "/Users/leogabayoyo/Projects/virtual-riscv-proc/src/regfile/regfile.cpp" "CMakeFiles/riscv-proc.dir/src/regfile/regfile.cpp.o" "gcc" "CMakeFiles/riscv-proc.dir/src/regfile/regfile.cpp.o.d"
+  "/Users/leogabayoyo/Projects/virtual-riscv-proc/src/decode/regfile/regfile.cpp" "CMakeFiles/riscv-proc.dir/src/decode/regfile/regfile.cpp.o" "gcc" "CMakeFiles/riscv-proc.dir/src/decode/regfile/regfile.cpp.o.d"
+  "/Users/leogabayoyo/Projects/virtual-riscv-proc/src/translator/RISCop.cpp" "CMakeFiles/riscv-proc.dir/src/translator/RISCop.cpp.o" "gcc" "CMakeFiles/riscv-proc.dir/src/translator/RISCop.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

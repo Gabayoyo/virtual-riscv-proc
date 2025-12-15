@@ -3,7 +3,7 @@ project(riscv-proc VERSION 0.1.0 LANGUAGES C CXX)
 
 include_directories(include)
 
-file(GLOB_RECURSE SOURCES "src/*.cpp")
+file(GLOB_RECURSE SOURCES "src/*/*.cpp")
 
 add_executable(riscv-proc ${SOURCES})
 
