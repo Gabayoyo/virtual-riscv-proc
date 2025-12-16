@@ -1,12 +1,12 @@
 #pragma once
 
 #include <cstdint>
+#include <iostream>
 
 namespace utils {
-    template<typename T>
-    T selectBits(T value, unsigned int start, unsigned int length) {
+    inline uint32_t selectBits(uint32_t value, unsigned int start, unsigned int length) {
         // Create a mask with 'length' number of 1s
-        T mask = (static_cast<T>(1) << length) - 1;
+        uint32_t mask = (static_cast<uint32_t>(1) << length) - 1;
         
         // Shift the value right to align the desired bits, then apply mask
         return (value >> start) & mask;

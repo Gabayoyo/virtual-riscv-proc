@@ -2,16 +2,19 @@
 using namespace std;
 
 #include "decode/regfile/regfile.hpp"
+#include "decode/decoder/decodedInst.hpp"
 #include "instTranslator/RISCop.hpp"
 #include "instTranslator/instTranslator.hpp"
+#include "utils/utils.hpp"
+#include "decode/decoder/decoder.hpp"
 
 int main() {
 
     Regfile rf;
-    RISCop op("ADD x2, x1, x3");
+    RISCop op("ADD x2, x2, x3");
     InstTranslator translator;
     uint32_t inst32 = translator.instTo32Bit(op);
-    rf.write(2, 42);
-    rf.printReg(2);
+    Decoder decoder;
+    DecodedInst decodedInst = decoder.decodeInstruction(inst32);
     return 0;
 }

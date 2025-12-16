@@ -785,5 +785,8 @@ CMakeFiles/riscv-proc.dir/src/core/proc.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/print \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/unistd.h \
   /Users/leogabayoyo/Projects/virtual-riscv-proc/include/decode/regfile/regfile.hpp \
+  /Users/leogabayoyo/Projects/virtual-riscv-proc/include/decode/decoder/decodedInst.hpp \
+  /Users/leogabayoyo/Projects/virtual-riscv-proc/include/utils/utils.hpp \
   /Users/leogabayoyo/Projects/virtual-riscv-proc/include/instTranslator/RISCop.hpp \
-  /Users/leogabayoyo/Projects/virtual-riscv-proc/include/instTranslator/instTranslator.hpp
+  /Users/leogabayoyo/Projects/virtual-riscv-proc/include/instTranslator/instTranslator.hpp \
+  /Users/leogabayoyo/Projects/virtual-riscv-proc/include/decode/decoder/decoder.hpp

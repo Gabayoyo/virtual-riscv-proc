@@ -1,6 +1,6 @@
 #pragma once
 
-#include "instTranslator/RISCop.hpp"
+#include "RISCop.hpp"
 
 class InstTranslator {
     public:
