@@ -32,3 +32,22 @@ class DecodedInstR : public DecodedInst {
             funct7 = utils::selectBits(raw, 25, 7);
         }
 };
+
+class DecodedInstI : public DecodedInst {
+    public:
+        uint8_t rd;
+        uint8_t funct3;
+        uint8_t rs1;
+        int32_t immediate;
+
+        DecodedInstI(uint32_t raw) : DecodedInst(raw) {
+            rd = utils::selectBits(raw, 7, 5);
+            funct3 = utils::selectBits(raw, 12, 3);
+            rs1 = utils::selectBits(raw, 15, 5);
+            immediate = static_cast<int32_t>(utils::selectBits(raw, 20, 12));
+            // sign-extend immediate if necessary
+            if (immediate & (1 << 11)) {
+                immediate |= 0xFFFFF000; // set upper 20 bits to 1
+            }
+        }
+};

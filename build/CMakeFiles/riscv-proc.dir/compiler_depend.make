@@ -3158,7 +3158,7 @@ CMakeFiles/riscv-proc.dir/src/instTranslator/RISCop.cpp.o: /Users/leogabayoyo/Pr
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
   /Users/leogabayoyo/Projects/virtual-riscv-proc/include/instTranslator/RISCop.hpp \
-  /Users/leogabayoyo/Projects/virtual-riscv-proc/include/instTranslator/opDict.hpp
+  /Users/leogabayoyo/Projects/virtual-riscv-proc/include/instTranslator/opcodeDict.hpp
 
 CMakeFiles/riscv-proc.dir/src/instTranslator/instTranslator.cpp.o: /Users/leogabayoyo/Projects/virtual-riscv-proc/src/instTranslator/instTranslator.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/Availability.h \
@@ -5056,13 +5056,13 @@ CMakeFiles/riscv-proc.dir/src/instTranslator/instTranslator.cpp.o: /Users/leogab
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/none_of.h:
 
-/Users/leogabayoyo/Projects/virtual-riscv-proc/include/instTranslator/opDict.hpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/concepts:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_types/_uint8_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/is_trivially_assignable.h:
+
+/Users/leogabayoyo/Projects/virtual-riscv-proc/include/instTranslator/opcodeDict.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__concepts/constructible.h:
 

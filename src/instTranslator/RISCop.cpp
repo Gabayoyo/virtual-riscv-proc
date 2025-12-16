@@ -1,5 +1,5 @@
 #include "instTranslator/RISCop.hpp"
-#include "instTranslator/opDict.hpp"
+#include "instTranslator/opcodeDict.hpp"
 #include <regex>
 #include <iostream>
 
@@ -50,7 +50,11 @@ RISCop::RISCop(string inputOp) : opString(inputOp) {
     else if (std::regex_search(inputOp, match, rsPattern)) {
         offset = 0;
         rs1 = std::stoi(match.str(1).substr(1,2));
-        rs2 = std::stoi(match.str(2).substr(1,2));
+        if (match.str(2)[0] == 'x') {
+            rs2 = std::stoi(match.str(2).substr(1,2));
+        } else {
+            immediate = std::stoi(match.str(2)); // if no x in first position, it's an immediate
+        }
     }
     else throw std::invalid_argument("Invalid RISC rs strings");
 }

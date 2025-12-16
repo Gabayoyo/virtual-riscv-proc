@@ -11,7 +11,7 @@ using namespace std;
 int main() {
 
     Regfile rf;
-    RISCop op("ADD x2, x2, x3");
+    RISCop op("ADDI x2, x2, x4");
     InstTranslator translator;
     uint32_t inst32 = translator.instTo32Bit(op);
     Decoder decoder;

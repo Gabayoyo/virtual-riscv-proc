@@ -638,7 +638,7 @@ CMakeFiles/riscv-proc.dir/src/instTranslator/RISCop.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/execution \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/is_execution_policy.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/bit \
-  /Users/leogabayoyo/Projects/virtual-riscv-proc/include/instTranslator/opDict.hpp \
+  /Users/leogabayoyo/Projects/virtual-riscv-proc/include/instTranslator/opcodeDict.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/map \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/lexicographical_compare_three_way.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/three_way_comp_ref_type.h \

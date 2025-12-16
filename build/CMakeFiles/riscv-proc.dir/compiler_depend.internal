@@ -3162,7 +3162,7 @@ CMakeFiles/riscv-proc.dir/src/instTranslator/RISCop.cpp.o
  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h
  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h
  /Users/leogabayoyo/Projects/virtual-riscv-proc/include/instTranslator/RISCop.hpp
- /Users/leogabayoyo/Projects/virtual-riscv-proc/include/instTranslator/opDict.hpp
+ /Users/leogabayoyo/Projects/virtual-riscv-proc/include/instTranslator/opcodeDict.hpp
 
 CMakeFiles/riscv-proc.dir/src/instTranslator/instTranslator.cpp.o
  /Users/leogabayoyo/Projects/virtual-riscv-proc/src/instTranslator/instTranslator.cpp

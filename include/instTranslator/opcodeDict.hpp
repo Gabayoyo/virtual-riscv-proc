@@ -27,4 +27,5 @@ map<string, InstrEncoding> opcodeDict = {
     {"SLT", {0b0110011, 0x2, 0x00}},
     {"SLTU",{0b0110011, 0x3, 0x00}},
     // I-type
+    {"ADDI", {0b0010011, 0x0, 0x00}},
 };

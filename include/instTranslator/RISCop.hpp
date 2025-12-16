@@ -10,7 +10,7 @@ class RISCop {
         uint8_t rs1;
         uint8_t rs2;
         uint8_t opcode;
-        uint32_t imm;
+        uint32_t immediate;
         uint32_t offset;
         uint8_t funct3;
         uint8_t funct7;
